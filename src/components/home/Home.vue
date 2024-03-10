@@ -10,11 +10,10 @@
 <script>
   import Product from "@/components/product/Product";
   import About from "@/components/about/About";
-  import Project from "@/components/project/Project";
   import Contact from "@/components/contact/Contact";
   export default {
     name: "Home",
-    components: {Contact, Project, About, Product},
+    components: {Contact, About, Product},
   }
 </script>
 

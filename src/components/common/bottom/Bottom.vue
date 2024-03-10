@@ -6,7 +6,7 @@
           <span v-for="item in nav" :key="item.name" @click="navClick(item.path)">{{item.name}}</span>
         </div>
         <div class="law">
-          <span>版权所有： 北京雅明照明科技有限公司 备案号 xxxxxxxxxxxxxxxxx</span>
+          <span>版权所有： 中山市爱芯科技有限公司 备案号 xxxxxxxxxxxxxxxxx</span>
         </div>
       </div>
       <div class="img">
@@ -35,10 +35,12 @@
             name:'产品中心',
             path:'/product'
           },
+          /*
           {
             name:'案例中心',
             path:'/project'
           },
+          */
           {
             name:'联系我们',
             path:'/contact'

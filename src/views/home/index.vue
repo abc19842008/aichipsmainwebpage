@@ -3,7 +3,7 @@
     <div class="index">
       <div class="logo">
         <img src="~@/assets/logo.png" alt="">
-        <p>北京雅明照明科技有限公司</p>
+        <p>中山市爱芯科技有限公司</p>
       </div>
       <div class="nav-box">
         <span v-for="item in nav" :key="item.name"
@@ -31,10 +31,12 @@
             name:'产品中心',
             path:'/product'
           },
+          /*
           {
             name:'案例中心',
             path:'/project'
           },
+          */
           {
             name:'联系我们',
             path:'/contact'

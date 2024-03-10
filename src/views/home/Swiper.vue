@@ -16,7 +16,7 @@
       return{
         swiper:[
           {
-            img: require('@/assets/swiper/swiper1.png'),
+            img: require('@/assets/swiper/swiper1.jpg'),
             href:''
           },
           {

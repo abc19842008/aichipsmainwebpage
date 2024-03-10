@@ -1,5 +1,3 @@
-# yaming
-
 ## Project setup
 ```
 npm install

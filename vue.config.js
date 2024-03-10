@@ -23,5 +23,5 @@
 //   }
 // };
 module.exports={
-  publicPath:'aichipsmainwebpage'
+  publicPath:'/aichipsmainwebpage/'
 }

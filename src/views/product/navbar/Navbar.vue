@@ -22,7 +22,7 @@
     },
     data(){
       return{
-        items:['教育照明','户外照明','工业照明']
+        items:['SOC芯片','开发板','AI模组']
       }
     },
     methods:{
@@ -48,8 +48,8 @@
     border-bottom:1px solid #dfdfdf
   }
   .main i{
-    margin-right: 5px;
-    margin-left: 15px;
+    margin-right: 15px;
+    margin-left: 5px;
   }
   .item{
     color: #666666;

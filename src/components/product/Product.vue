@@ -31,24 +31,24 @@
       }
     },
     mounted(){
-      this.currentType='教育照明'
+      this.currentType='SOC芯片'
       this.currentList=eduProducts
     },
     methods:{
       itemClick(item) {
         switch (item) {
-          case '教育照明':
+          case 'SOC芯片':
             this.currentList = eduProducts;
-            this.currentType='教育照明';
+            this.currentType='SOC芯片';
 
             break;
-          case '户外照明':
+          case '开发板':
             this.currentList = lanProducts;
-            this.currentType='户外照明';
+            this.currentType='开发板';
             break;
-          case '工业照明':
+          case 'AI模组':
             this.currentList = indProducts;
-            this.currentType='工业照明';
+            this.currentType='AI模组';
         }
       }
     }
@@ -62,7 +62,7 @@
   }
 
   .list {
-    width: 1200px;
+    width: 1000px;
     text-align: center;
   }
 
@@ -72,6 +72,7 @@
 
   .nav {
     margin-top: 135px;
+    margin-left: 75px;
   }
   .productList{
     padding-left: 30px;
